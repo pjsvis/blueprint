@@ -1,0 +1,3 @@
+{"file":"adr-001-toolchain-selection.md","date":"2026-05-20","status":"Accepted","summary":"Choose the initial Bun, TypeScript, SQLite, just, and Flox toolchain","meta":{}}
+{"file":"adr-002-unified-jsonl-document-registries.md","date":"2026-06-03","status":"Accepted","summary":"Adopt unified JSONL document registers and Bun registry tooling","meta":{}}
+{"file":"adr-003-barnacle-drydock-policy.md","date":"2026-06-03","status":"Accepted","summary":"Use a gitignored drydock for quarantined stale documentation","meta":{}}

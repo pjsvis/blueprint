@@ -1,0 +1,24 @@
+{
+  "name": "developer-ai-process-blueprint",
+  "version": "1.0.0",
+  "description": "Scaffold blueprint template for high-performance developer-AI workflows",
+  "type": "module",
+  "scripts": {
+    "check": "just check",
+    "lint": "bunx @biomejs/biome check .",
+    "format": "bunx @biomejs/biome format . --write",
+    "cli": "bun run src/cli/main.ts",
+    "reg:check": "bun scripts/reg-check.ts",
+    "reg:sync": "bun scripts/reg-sync.ts --all",
+    "reg:fix": "bun scripts/reg-sync.ts --all --fix",
+    "reg:list": "bun scripts/reg-list.ts"
+  },
+  "dependencies": {
+    "citty": "^0.2.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}

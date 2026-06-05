@@ -1,0 +1,7 @@
+{"file":"check-boundaries.ts","date":"2026-05-20","status":"active","summary":"Enforce import boundaries between scripts and production source modules","meta":{"lang":"ts","purpose":"validation"}}
+{"file":"lab/fetch-news-lab.ts","date":"2026-05-20","status":"active","summary":"Provide a Tier 0 news-fetching experiment for lab-first promotion","meta":{"lang":"ts","purpose":"lab"}}
+{"file":"maintenance/clean-branches.ts","date":"2026-05-20","status":"active","summary":"Support branch cleanup maintenance workflows","meta":{"lang":"ts","purpose":"maintenance"}}
+{"file":"maintenance/fix-debrief-names.ts","date":"2026-05-20","status":"active","summary":"Support debrief filename normalization maintenance workflows","meta":{"lang":"ts","purpose":"maintenance"}}
+{"file":"reg-check.ts","date":"2026-06-03","status":"active","summary":"Validate registry JSONL entries against the unified required-field contract","meta":{"lang":"ts","purpose":"registry"}}
+{"file":"reg-list.ts","date":"2026-06-03","status":"active","summary":"Print human-readable listings of document registry entries","meta":{"lang":"ts","purpose":"registry"}}
+{"file":"reg-sync.ts","date":"2026-06-03","status":"active","summary":"Detect and repair drift between document directories and JSONL registers","meta":{"lang":"ts","purpose":"registry"}}

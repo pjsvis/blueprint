@@ -1,0 +1,13 @@
+{"file": "agent-interaction-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define the expected collaboration pattern between developers and AI agents", "meta": {}}
+{"file": "barnacle-drydock-playbook.md", "date": "2026-06-03", "status": "canonical", "summary": "Define how stale documentation is quarantined without losing context", "meta": {}}
+{"file": "briefs-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define how project briefs and epics are written before implementation", "meta": {}}
+{"file": "cli-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define conventions for building command-line interfaces with Citty", "meta": {}}
+{"file": "conventions-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Maintain active conventions and anti-barnacle rules", "meta": {}}
+{"file": "debriefs-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define how completed work is reviewed and recorded", "meta": {}}
+{"file": "justfile-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define conventions for project command runners built with just", "meta": {}}
+{"file": "lab-first-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define how experiments graduate from lab scripts into production code", "meta": {}}
+{"file": "minimalist-tooling-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Keep process tooling lean and justified by practical use", "meta": {}}
+{"file": "playbooks-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define how playbooks are structured, maintained, and registered", "meta": {}}
+{"file": "sqlite-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define SQLite usage patterns for Bun-based projects", "meta": {}}
+{"file": "td-playbook.md", "date": "2026-05-20", "status": "canonical", "summary": "Define local task and session management with td", "meta": {}}
+{"file": "unified-registry-playbook.md", "date": "2026-06-03", "status": "canonical", "summary": "Define the JSONL document registry system for template silos", "meta": {}}

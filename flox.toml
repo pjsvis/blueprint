@@ -1,0 +1,66 @@
+# ============================================================
+# Reusable Developer-AI Silo Manifest
+# ============================================================
+# Targets cross-platform development (macOS and Linux)
+# to reproduce the identical high-performance dev environment.
+#
+# Usage:
+#   flox init               # Initialize in new project
+#   flox install            # Install packages from this manifest
+#   flox activate           # Enter shell environment
+# ============================================================
+
+version = 1
+
+# ============================================================
+# [install] — Nixpkgs Packages
+# ============================================================
+
+[install]
+# Core Task Automation
+just.pkg-path = "just"
+jq.pkg-path = "jq"
+watchexec.pkg-path = "watchexec"
+
+# Languages & Runtimes
+nodejs.pkg-path = "nodejs"
+python3.pkg-path = "python3"
+sqlite.pkg-path = "sqlite"
+
+# Modern UNIX Tools (CLI / Agent productivity)
+ripgrep.pkg-path = "ripgrep"
+ripgrep.optional = true
+
+glow.pkg-path = "glow"
+glow.optional = true
+
+gum.pkg-path = "gum"
+gum.optional = true
+
+# ============================================================
+# [vars] — Activation Environment Variables
+# ============================================================
+[vars]
+BUN_INSTALL = "$HOME/.bun"
+
+# ============================================================
+# [profile] — Scripts run on environment activation
+# ============================================================
+[profile]
+common = '''
+# Add bun to PATH if installed via curl script
+if [ -f "$BUN_INSTALL/bun" ]; then
+  [ -d "$BUN_INSTALL/bin" ] && export PATH="$BUN_INSTALL/bin:$PATH"
+fi
+'''
+
+# ============================================================
+# [options] — Systems Architecture
+# ============================================================
+[options]
+systems = [
+  "x86_64-linux",
+  "aarch64-linux",
+  "x86_64-darwin",
+  "aarch64-darwin",
+]
