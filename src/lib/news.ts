@@ -89,7 +89,9 @@ export async function fetchExternalNews(
 
     const response = await fetch("https://news.ycombinator.com/rss", {
       signal: controller.signal,
-      headers: { "User-Agent": "Mozilla/5.0 (TradingAgents Process Blueprint)" },
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Blueprint Process Agent)",
+      },
     });
 
     clearTimeout(timeoutId);

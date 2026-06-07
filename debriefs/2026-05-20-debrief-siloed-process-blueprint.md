@@ -23,7 +23,7 @@ environment: local
 - **Catch Block Error Typing:** The git branch pruner script contained an explicit `any` type in the catch block and threw Biome lint errors. Resolved by updating the script to catch errors as `unknown`, then determining the message dynamically (`error instanceof Error`).
 
 ## Architectural Decisions (ADRs)
-- Link to ADR: [decisions/adr-001-toolchain-selection.md](file:///Users/petersmith/Dev/GitHub/TradingAgents/blueprint/decisions/adr-001-toolchain-selection.md) — Selecting Bun and Biome as the foundational runtime and linter for high performance and AI-compatibility.
+- Link to ADR: [decisions/adr-001-toolchain-selection.md](../decisions/adr-001-toolchain-selection.md) — Selecting Bun and Biome as the foundational runtime and linter for high performance and AI-compatibility.
 
 ## Verification Proof
 - **Automated Verification:** Executed `just check` in the blueprint root workspace, producing a 100% green exit status:
